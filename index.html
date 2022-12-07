@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="Author" content="Hudson Machado">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+
+
+    <title>Mentoria</title>
+
+</head>
+<body>
+
+    <header>
+        <div>Mentoria</div>
+        
+        <p>Preencha o formulário abaixo para <br>agendar sua mentoria</p>
+
+    </header>
+
+
+    <main>
+        <form id="formulario">
+            <fieldset>
+
+                <legend>Informações pessoais</legend>
+                
+                <div class="fullname">
+                    
+                    <div class="name">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name">
+                        
+                    </div>
+                    
+                    <div class="lastname">
+                        <label for="lastname">Sobrenome</label>
+                        <input type="text" id="lastname">
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="login">
+                    <label for="login">E-mail <span>(digite um email válido)</span></label>
+                    <input type="email" id="login">
+                    
+                </div>
+                
+                <div class="senha">
+                    <label for="senha">Senha <span>(mínimo de 6 caracteres)</span></label>
+                    <input type="password"  id="senha">
+                    
+                </div>
+            </fieldset>
+                
+            <fieldset class="mid">
+                <legend>Informações do mentor</legend>
+
+                <div class="mentor">
+                    <label for="mentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+                    <input type="text" id="mentor">
+                </div>
+            </fieldset>
+
+            <fieldset class="bot">
+                <legend>Seus horários disponíveis</legend>
+
+                <p>Primeira Mentoria</p>
+
+                <div class="firstmentorydate">
+
+                    <div class="firstmentory">
+                        <label for="firstmentory">Data <span>(DD/MM/AAAA)</span></label>
+                        <input type="date" id="firstmentory">
+                    </div>
+                    
+                    <div class="beginfirstmentory">
+                        <label for="beginfirstmentory">Das</label>
+                        <input type="time" id="beginfirstmentory">
+                        
+                    </div>
+                    
+                    <div class="endfirstmentory">
+                        <label for="endfirstmentory">Até</label>
+                        <input type="time" id="endfirstmentory">
+                        
+                    </div>
+                    
+                </div>
+
+
+
+
+
+                <p>Segunda Mentoria</p>
+
+                <div class="secondmentorydate">
+
+                    <div class="secondmentory">
+                        <label for="secondmentory">Data <span>(DD/MM/AAAA)</span></label>
+                        <input type="date" id="secondmentory">
+                    </div>
+                    
+                    <div class="beginsecondmentory">
+                        <label for="beginsecondmentory">Das</label>
+                        <input type="time" id="beginsecondmentory">
+                        
+                    </div>
+                    
+                    <div class="endsecondmentory">
+                        <label for="endsecondmentory">Até</label>
+                        <input type="time" id="endsecondmentory">
+                        
+                    </div>
+                    
+                </div>
+
+
+
+
+
+    
+
+
+
+
+            </fieldset>
+
+
+
+
+
+
+
+                
+                
+            
+            
+            
+            
+            
+        </form>
+    </main>
+
+
+
+    <footer>
+        <input type="submit" value="Salvar" form="formulario">
+
+    </footer>
+
+
+    
+</body>
+</html>
